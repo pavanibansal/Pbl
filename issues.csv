@@ -1,0 +1,22 @@
+ID,Title,Description,Label,Module,RequiredSkill,Priority,Hours,Dependency,Developer,Status
+101,Login validation,Fix incorrect login validation,Authentication,Backend,Python,1,4,0,201,1
+104,Database connection,Resolve database connection failure,Database,Backend,SQL,1,6,0,0,2
+105,User registration,Create user registration API,Authentication,Backend,Java,1,5,101,0,0
+107,Payment validation,Fix payment validation errors,Payment,Backend,Java,1,7,0,202,1
+111,API security,Improve API security checks,Security,Backend,Java,1,5,0,202,1
+116,Prediction module,Build prediction functionality,AI,Machine Learning,AI-ML,1,8,0,205,1
+102,Password reset,Implement password reset feature,Authentication,Backend,Python,2,3,101,0,0
+103,Navigation menu,Fix navigation menu layout,UI,Frontend,Web Development,2,5,0,204,1
+108,Search functionality,Improve search results,Search,Backend,Python,2,5,104,201,2
+109,Report generation,Create monthly reports,Reporting,Backend,SQL,2,4,104,203,1
+112,Image upload,Fix image upload errors,Media,Backend,Python,2,3,101,0,0
+113,Mobile layout,Improve mobile responsiveness,UI,Frontend,Web Development,2,4,0,204,1
+115,Notification system,Implement email notifications,Communication,Backend,Java,2,6,105,0,0
+117,Model evaluation,Evaluate prediction model,AI,Machine Learning,AI-ML,2,5,116,0,0
+118,Unit testing,Write backend unit tests,Testing,Backend,Python,2,4,101,0,0
+106,Profile page,Develop user profile page,UI,Frontend,Web Development,3,4,0,204,1
+110,Dashboard charts,Display dashboard charts,Analytics,Frontend,Python,3,6,0,201,1
+114,Data cleaning,Remove duplicate database records,Database,Backend,SQL,3,5,104,203,1
+119,UI testing,Test frontend components,Testing,Frontend,Web Development,3,3,103,0,0
+120,Performance report,Prepare application performance report,Reporting,Backend,SQL,3,4,109,0,0
+121,Fix email notification error,User receiving email notifications,Communication,backend,Java,1,4,0,0,0
