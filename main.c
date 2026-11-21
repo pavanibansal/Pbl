@@ -37,6 +37,7 @@ int main(void)
         printf("9. Search Issue using Binary Search\n");
         printf("10. Save All Data\n");
         printf("11. Run Algorithm Benchmark\n");
+        printf("12. Run Dijkstra Dependency Analysis\n");
         printf("0. Save and Exit\n");
 
         printf("\nEnter your choice: ");
@@ -110,6 +111,9 @@ int main(void)
 
             case 11:
                 benchmarkAlgorithms();
+                break;
+            case 12:
+                showDependencyPaths(issues, issueCount);
                 break;
 
             case 0:
